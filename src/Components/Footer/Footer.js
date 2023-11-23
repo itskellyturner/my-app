@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../assets/shared.css';
 import './Footer.css';
 import Nav from '../Nav';

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { useContext, useState } from "react";
 import { validateEmail, validatePhone } from "../Booking/fieldValidation";
 import { AppContext } from "../Context/AppContext";

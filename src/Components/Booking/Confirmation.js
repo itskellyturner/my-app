@@ -1,3 +1,4 @@
+import React from 'react';
 import { birthdaySvg, anniversarySvg, businessSvg, generalSvg } from "../../assets/svg";
 import { Link, useLocation } from "react-router-dom";
 

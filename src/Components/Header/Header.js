@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../assets/shared.css';
 import './Header.css';
 import Nav from "../Nav";

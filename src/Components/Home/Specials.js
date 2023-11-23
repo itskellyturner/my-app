@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { deliverySvg } from '../../assets/svg';
 import { Link } from "react-router-dom";
 import { useContext } from "react";

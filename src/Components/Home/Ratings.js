@@ -1,3 +1,4 @@
+import React from 'react';
 import { starSvg } from '../../assets/svg';
 import ratingsData from './ratingsData';
 

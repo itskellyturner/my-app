@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../assets/shared.css';
 import './Menu.css';
 import { useContext } from "react";
