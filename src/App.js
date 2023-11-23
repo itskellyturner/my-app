@@ -1,16 +1,17 @@
-import HomePage from "./components/Home/HomePage";
-import BookingPage from "./components/Booking/BookingForm.";
-import OrderPage from "./components/Order/OrderPage";
+import HomePage from "./Components/Home/HomePage";
+import BookingPage from "./Components/Booking/BookingPage";
+import OrderPage from "./Components/Order/OrderPage";
+import MenuPage from "./Components/Menu/MenuPage";
 import { Routes, Route } from "react-router-dom";
-import MenuPage from "./components/Menu/MenuPage";
-import { AppProvider } from './components/context/AppContext';
-import Confirmation from "./components/Booking/Confirmation";
-import Header from "./components/Header/Header";
+import { AppProvider } from "./Components/Context/AppContext";
+import Confirmation from "./Components/Booking/Confirmation";
+import Header from "./Components/Header/Header";
+
 
 function App() {
   return (
     <AppProvider>
-        <img className="bg" alt="Site Background" src={require('../src/assets/images/table.JPG')}/>
+        <img className="bg" alt="Site Background" src={require('../src/images/table.jpeg')}/>
         <div className="container">
           <Header />
           <Routes>
