@@ -1,5 +1,5 @@
 import HomePage from "./components/Home/HomePage";
-import BookingPage from "./components/Booking/BookingPage";
+import BookingPage from "./components/Booking/BookingForm.";
 import OrderPage from "./components/Order/OrderPage";
 import { Routes, Route } from "react-router-dom";
 import MenuPage from "./components/Menu/MenuPage";
