@@ -9,7 +9,7 @@ const ratingsData = [
     },
     {
       id: 2,
-      name: 'Manny Eve',
+      name: 'Manky Eve',
       img: 'person2.jpeg',
       text: 'Instant cravings = sated!.',
     },
