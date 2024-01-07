@@ -64,7 +64,7 @@ export default function OrderPage() {
                 handleSearch().map(item => {
                   return (
                     <div className="order-item" key={item.id}>
-                      <img src={require(`../../images/${item.img}`)} alt={item.dishUpper} />
+                      <img src={(`../../images/${item.img}`)} alt={item.dishUpper} />
                       <p>{item.dishLower}</p>
                       <p>
                         <span>${item.price}</span>

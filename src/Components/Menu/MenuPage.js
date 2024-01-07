@@ -22,7 +22,7 @@ export default function MenuPage() {
             menuData.map(item => {
               return (
                 <div className='menu-content-item' key={item.id}>
-                  <img src={require(`../../images/${item.img}`)} alt={item.dishUpper}/>
+                  <img src={(`../../images/${item.img}`)} alt={item.dishUpper}/>
                   <div>
                     <p>{item.dishUpper}</p>
                     <p>{item.description}</p>

@@ -36,11 +36,11 @@ export default function Header() {
       </div>
       <div className="header fixed">
         <span
-          className="hamburger-btn"
+          className="hamburger-button"
           onClick={toggleHamburger}>{hamburgerSvg}
         </span>
         <Link to="/" aria-label="Go to Home Page">
-          <img src={require('src/assets/images/logo.png')} alt="Little Lemon Logo"/>
+          <img src="/logo.png" alt="Little Lemon Logo" />
         </Link>
         <span className="nav">
           <Nav />
