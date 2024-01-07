@@ -1,5 +1,3 @@
-import React from 'react';
-
 import HomePage from "./Components/Home/HomePage";
 import BookingPage from "./Components/Booking/BookingPage";
 import OrderPage from "./Components/Order/OrderPage";
@@ -13,7 +11,7 @@ import Header from "./Components/Header/Header";
 function App() {
   return (
     <AppProvider>
-        <img className="bg" alt="Site Background" src={require('../src/images/table.jpeg')}/>
+        <img className="bg" alt="Site Background" src={require('../src/assets/images/table.jpeg')}/>
         <div className="container">
           <Header />
           <Routes>

@@ -40,7 +40,7 @@ export default function Header() {
           onClick={toggleHamburger}>{hamburgerSvg}
         </span>
         <Link to="/" aria-label="Go to Home Page">
-          <img src={require('../..//images/logo.png')} alt="Little Lemon Logo"/>
+          <img src={require('src/assets/images/logo.png')} alt="Little Lemon Logo"/>
         </Link>
         <span className="nav">
           <Nav />

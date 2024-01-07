@@ -1,4 +1,3 @@
-import React from 'react';
 import { useReducer } from "react";
 import BookingForm from "./BookingForm";
 import { fetchAPI } from "./bookingAPI";
@@ -39,7 +38,7 @@ export default function BookingPage() {
             dispatch,
           }}
         />
-        <img className="map" src={require('../../images/map.jpeg')} alt="Little Lemon location"/>
+        <img className="map" src={require('../../images/map.jpeg')} alt="Little Lemon Location"/>
       </div>
       <small className="rights">© All rights reserved to Little Lemon</small>
     </>
