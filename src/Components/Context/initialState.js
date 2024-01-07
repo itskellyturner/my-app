@@ -1,6 +1,5 @@
-import React from 'react';
 const initialState = {
-    menuData: [
+  menuData: [
       {
         id: 1,
         img: 'cheeseBread.jpeg',
