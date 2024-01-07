@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import '../../assets/shared.css';
 import './Menu.css';
 import Footer from '../Footer/Footer';
-import MenuData from '../Menu/menuData'; // Import MenuData
+import MenuData from '../Menu/menuData';
 
 export default function MenuPage() {
   useEffect(() => {
