@@ -1,14 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../assets/shared.css';
 import './Menu.css';
-import { useContext } from "react";
-import { AppContext } from '../Context/AppContext';
 import Footer from '../Footer/Footer';
-import { useEffect } from "react";
+import MenuData from '../Menu/menuData'; // Import MenuData
 
 export default function MenuPage() {
-  const { menuData } = useContext(AppContext);
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -19,22 +15,20 @@ export default function MenuPage() {
         <h2>Little Lemon Menu</h2>
         <div className='menu-content'>
           {
-            menuData.map(item => {
-              return (
-                <div className='menu-content-item' key={item.id}>
-                  <img src={(`../../images/${item.img}`)} alt={item.dishUpper}/>
-                  <div>
-                    <p>{item.dishUpper}</p>
-                    <p>{item.description}</p>
-                  </div>
-                  <span>${item.price}</span>
+            MenuData.map(item => ( // Use MenuData here
+              <div className='menu-content-item' key={item.id}>
+                <img src={item.img} alt={item.name}/> {/* Update the src to use item.img */}
+                <div>
+                  <p className='menu-item-name'>{item.name}</p> {/* Use item.name */}
+                  <p className='menu-item-description'>{item.description}</p> {/* Use item.description */}
                 </div>
-              )
-            })
+                <span className='menu-item-price'>${item.price}</span> {/* Use item.price */}
+              </div>
+            ))
           }
         </div>
       </div>
       <Footer />
     </>
-  )
+  );
 };

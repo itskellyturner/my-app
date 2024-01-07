@@ -15,9 +15,9 @@ sbhd - sub heading, mb-mobile, hg - highlight
   --family-h2-h3: 'Markazi Text';
   --family-p-a: 'Karla';
   /*full*/
-  --h2-hd: 60px;
-  --h3-sbhd: 40px;
-  --par: 20px;
+  --h2-hd: 70px;
+  --h3-sbhd: 50px;
+  --par: 25px;
   /*1024*/
   --h2-hd-md: 40px;
   --h3-sbhd-md: 30px;
@@ -71,7 +71,7 @@ button {
   font-family: var(--family-p-a);
   color: var(--hg-black);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   background-color: var(--primary-yellow);
   border-radius: var(--border-radius);
   border: 1px solid var(--hg-cream);
@@ -132,7 +132,7 @@ input[type="date"] {
   border-radius: 6px;
   background: none;
   padding: 14px;
-  font-size: 16px;
+  font-size: px;
   color: var(--primary-green);
   margin: 8px auto;
 }

@@ -7,16 +7,16 @@
   }
 
   .footer img {
-    margin: 20px;
+    margin: 0px;
     height: 128px;
   }
 
   .footer section {
-    margin: 20px;
+    margin: 18px;
   }
 
   .footer p {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     color: var(--hg-cream);
     border-bottom: 1px solid var(--hg-cream);
@@ -32,7 +32,7 @@
   }
 
   .footer li {
-    font-size: 16px;
+    font-size: 20px;
     font-family: var(--family-p-a);
     height: 20px;
   }
